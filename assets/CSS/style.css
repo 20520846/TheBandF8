@@ -13,6 +13,10 @@ html {
 
 }
 
+#nav {
+    display: inline-block;
+}
+
 #header {
     height: 46px;
     background-color: #000;
@@ -46,6 +50,29 @@ html {
     line-height: 46px;
     padding: 0px 24px;
     display: block;
+    cursor: pointer;
+}
+
+#nav .nav-arrow-down {
+    font-size: 14px;
+}
+
+#header #search-btn {
+    float: right;
+    padding: 0 21px;
+   
+}
+
+#header #search-btn:hover {
+    color:#fff;
+    background-color: red;
+    cursor: pointer;
+}
+
+#header .search-icon {
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
 }
 
 #nav > li:hover > a,
