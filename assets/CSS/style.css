@@ -310,6 +310,7 @@ html {
     width: 900px;
     min-height: 200px;
     max-width: calc(100% - 32px);
+    animation: modalFadeIn ease 0.5s;
 }
 
 .modal-close{
@@ -376,4 +377,15 @@ html {
 
 .modal-footer a {
     color: #2196F3;
+}
+
+@keyframes modalFadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
