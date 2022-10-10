@@ -53,6 +53,25 @@ html {
 .mt-16{
     margin-top: 16px !important;
 }
+
+.pull-right{
+    float: right !important;
+}
+
+.btn{
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 11px 16px ;
+    display: inline-block;
+    margin-top: 15px;
+    border: none;
+}
+.btn:hover{
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
 /*Main*/
 #main {
 
@@ -181,7 +200,7 @@ html {
 }
 
 #content .content-section{
-    padding: 64px 0;
+    padding: 64px 0 112px;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -262,7 +281,6 @@ html {
 /* Places */
 .places-list{
     margin-top: 32px;
-    margin-bottom: 48px;
 }
 
 
@@ -296,18 +314,7 @@ html {
     line-height: 1,4;
 }
 
-.place-buy-btn{
-    color: #fff;
-    background-color: #000;
-    text-decoration: none;
-    padding: 11px 16px ;
-    display: inline-block;
-    margin-top: 15px;
-}
-.place-buy-btn:hover{
-    color: #000;
-    background-color: #ccc;
-}
+
 /*Contact form*/
 .contact-content{
     margin-top: 48px;
@@ -332,19 +339,36 @@ html {
     width: 100%;
 }
 
-.form-submit{
-    font-size: 15px;
-    color: #fff;
-    background: #000;
-    border: none;
-    padding: 10px 16px;
-    float: right;
-} 
+.map-section img{
+    width: 100%;
 
+}
 
 
 #footer { 
+    padding: 64px 16px;
+    text-align: center;
+}
 
+
+#footer .social-list{
+    font-size: 24px;
+
+}
+
+#footer .social-list a {
+    color:rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+#footer .copyright a:hover,
+#footer .social-list a:hover {
+    color:rgba(0, 0, 0, 0.4);
+}
+
+#footer .copyright {
+    margin-top: 15px;
+    color:rgba(0, 0, 0, 0.6);
 }
 
 
